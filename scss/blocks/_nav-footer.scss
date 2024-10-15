@@ -1,0 +1,21 @@
+.nav-footer {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 14px;
+
+    @include mobile {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+.nav-footer__item {}
+
+a.nav-footer__link {
+    transition:  color 0.2s ease-in;
+}
+
+a.nav-footer__link:hover {
+    color: #00ae6c;
+}

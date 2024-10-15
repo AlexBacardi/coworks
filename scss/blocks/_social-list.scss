@@ -1,0 +1,9 @@
+.social-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    @include mobile {
+        gap: 20px;
+    }
+}

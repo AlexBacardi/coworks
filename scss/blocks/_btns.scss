@@ -1,0 +1,106 @@
+.btn-dark,
+a.btn-dark {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 80px;
+    background-color: #000;
+    transition: background-color 0.2s ease-in;
+
+    &:hover {
+        background-color: #333;
+    }
+
+    &--wide {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.btn-green,
+a.btn-green {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 80px;
+    background-color: #00ae6c;
+    transition: background-color 0.2s ease-in;
+
+    &:hover {
+        background-color: #00d785;
+    }
+
+}
+
+.btn-outline,
+a.btn-outline {
+    padding: 9px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 80px;
+    transition: background-color 0.2s ease-in, color 0.2s ease-in;
+
+    &:hover {
+        color: #000;
+        background-color: #fff;
+    }
+}
+
+.btn-price,
+a.btn-price {
+    padding: 9px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 80px;
+
+    &:hover {
+        color: #fff;
+        background-color: #000;
+    }
+}
+
+.btn-tg,
+a.btn-tg {
+    padding: 10px 20px;
+    display: inline-flex;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 80px;
+    background-color: #039BE5;
+    transition: background-color 0.2s ease-in;
+
+    &:hover {
+        background-color: #19b2ff;
+    }
+}
+
+.btn-whatapp,
+a.btn-whatapp {
+    padding: 10px 20px;
+    display: inline-flex;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 80px;
+    background-color: #00AE6C;
+    transition: background-color 0.2s ease-in;
+
+    &:hover {
+        background-color: #00c97c;
+    }
+}
+
+
